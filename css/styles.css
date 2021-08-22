@@ -23,6 +23,15 @@ body {
   background-color: var(--accent-color);
 }
 
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
 /* ------------------------HEADER------------------------ */
 
 .logo-header {
@@ -101,17 +110,11 @@ body {
 }
 
 .hero-btn {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  background-color: #f5f4fa;
   color: #ffffff;
-  cursor: pointer;
 }
 
 /* ------------------------ADVENTAGES------------------------ */
@@ -211,15 +214,11 @@ body {
 /* ------------------------BUTTON FILTERS------------------------ */
 
 .filters-btn {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  background-color: #f5f4fa;
   color: #212121;
-  cursor: pointer;
 }
 
 .link-gallery-title {
