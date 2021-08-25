@@ -63,6 +63,7 @@ body {
 .header .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header-navigation {
@@ -174,6 +175,7 @@ body {
   color: var(--main-title-color);
 
   display: block;
+  margin-top: 200px;
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -290,6 +292,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+
+  margin-bottom: 30px;
 }
 
 /* ------------------------FOOTER------------------------ */
@@ -348,12 +352,38 @@ body {
 
 /* ------------------------BUTTON FILTERS------------------------ */
 
+.filters-list {
+  display: flex;
+  justify-content: center;
+}
+
+.filters-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filters-btn {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: #212121;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+/* ------------------------LINK GALLERY------------------------ */
+
+.link-gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -45px;
+}
+
+.link-gallery-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  /* border: 1px solid rgba(238, 238, 238, 1); */
 }
 
 .link-gallery-title {
@@ -361,6 +391,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .link-gallery-text {
@@ -368,4 +403,13 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+
+.link-gallery-item-frame {
+  border: 1px solid rgba(238, 238, 238, 1);
+  margin-bottom: 94px;
 }
