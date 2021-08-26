@@ -206,7 +206,7 @@ body {
 
 /* ------------------------ADVENTAGES------------------------ */
 
-.advantages {
+.advantages .container {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -241,7 +241,7 @@ body {
 
 /* ------------------------EMPLOYMENT------------------------ */
 
-.employment {
+.employment .container {
   padding-bottom: 94px;
 }
 
@@ -265,7 +265,7 @@ body {
 
 /* ------------------------TEAM------------------------ */
 
-.team {
+.team .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -371,7 +371,7 @@ body {
 
 /* ------------------------BUTTON FILTERS------------------------ */
 
-.filters {
+.filters .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
