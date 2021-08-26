@@ -60,10 +60,13 @@ body {
 }
 /* ------------------------HEADER------------------------ */
 
+.header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
 .header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header-navigation {
@@ -165,7 +168,14 @@ body {
 }
 /* СУТО ДЛЯ ВИДІЛЕННЯ ТЕКСТУ*/
 
+.hero .container {
+  display: block;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -175,14 +185,14 @@ body {
   color: var(--main-title-color);
 
   display: block;
-  margin-top: 200px;
-  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
-  width: 696px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -190,17 +200,19 @@ body {
   color: #ffffff;
 
   display: block;
-  margin-bottom: 200px;
   margin-right: auto;
   margin-left: auto;
 }
 
 /* ------------------------ADVENTAGES------------------------ */
 
+.advantages {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .advantages-list {
   display: flex;
-  margin-bottom: 94px;
-  /* justify-content: space-between; */
 }
 
 .advantages-item {
@@ -217,6 +229,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .advantages-text {
@@ -227,6 +240,10 @@ body {
 }
 
 /* ------------------------EMPLOYMENT------------------------ */
+
+.employment {
+  padding-bottom: 94px;
+}
 
 .employment-title {
   font-weight: 700;
@@ -240,8 +257,6 @@ body {
 
 .employment-list {
   display: flex;
-  margin-bottom: 94px;
-  /* justify-content: space-between; */
 }
 
 .employment-items:not(:last-child) {
@@ -249,6 +264,11 @@ body {
 }
 
 /* ------------------------TEAM------------------------ */
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .team-title {
   font-weight: 700;
@@ -262,8 +282,6 @@ body {
 
 .team-list {
   display: flex;
-  margin-bottom: 94px;
-  /* justify-content: space-between; */
 }
 
 .team-item:not(:last-child) {
@@ -275,15 +293,13 @@ body {
 }
 
 .team-name {
-  margin-bottom: 10px;
-}
-
-.team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
 }
 
 .team-profession {
@@ -304,6 +320,11 @@ body {
 }
 /* СУТО ДЛЯ ВИДІЛЕННЯ ТЕКСТУ*/
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .logo-footer {
   font-family: Raleway;
   font-weight: 700;
@@ -313,8 +334,7 @@ body {
   color: #ffffff;
 
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-maps {
@@ -345,16 +365,21 @@ body {
   color: rgba(255, 255, 255, 0.6);
 
   display: block;
-  margin-bottom: 60px;
 }
 
 /* ------------------------PORFOLIO.HTML------------------------ */
 
 /* ------------------------BUTTON FILTERS------------------------ */
 
+.filters {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filters-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filters-item:not(:last-child) {
@@ -367,10 +392,13 @@ body {
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: #212121;
-  margin-top: 94px;
-  margin-bottom: 50px;
-}
 
+  display: block;
+  padding-top: 8px;
+  padding-right: 22px;
+  padding-bottom: 8px;
+  padding-left: 22px;
+}
 /* ------------------------LINK GALLERY------------------------ */
 
 .link-gallery-list {
@@ -411,5 +439,4 @@ body {
 
 .link-gallery-item-frame {
   border: 1px solid rgba(238, 238, 238, 1);
-  margin-bottom: 94px;
 }
